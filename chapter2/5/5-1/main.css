@@ -1,0 +1,55 @@
+/*ベース=================================================================*/
+body {
+    fontfamily: sansserif;
+}
+
+/*レイアウト=================================================================*/
+.ly_cont {
+    maxwidth: 1200px;
+    paddingright: 15px;
+    paddingleft: 15px;
+    marginright: auto;
+    marginleft: auto;
+}
+
+/*モジュール=================================================================*/
+#main span {
+    color: #555;
+    fontsize: 14px;
+}
+
+#main div.bl_module.main-module {
+    display: flex;
+    alignitems: center;
+    fontsize: 16px;
+    lineheight: 1.5;
+}
+
+#main div.bl_module.main-module figure {
+    flex: 1 1 25%;
+    margin-right: 3.33333%;
+}
+
+#main div.bl_module.main-module img {
+    width: 100%;
+    verticalalign: top;
+}
+
+#main div.bl_module.main-module div {
+    flex: 1 1 68.33333%;
+}
+
+#main div.bl_module.main-module h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#maindiv.bl_module.mainmoduleh3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #555;
+}
+
+

@@ -1,0 +1,48 @@
+
+#main span {
+    color: #555;
+    fontsize: 14px;
+}
+
+#main div.module.main-module {
+    /*左右中央揃えのための指定*/
+    maxwidth: 1200px;
+    paddingright: 15px;
+    paddingleft: 15px;
+    marginright: auto;
+    marginleft: auto;
+    /*モジュールに対する指定*/
+    display: flex;
+    alignitems: center;
+    fontfamily: sansserif;
+    fontsize: 16px;
+    lineheight: 1.5;
+}
+
+#main div.module.main-module figure {
+    flex: 1125%;
+    marginright: 3.33333%;
+}
+
+#main div.module.main-module img {
+    width: 100%;
+    verticalalign: top;
+}
+
+#main div.module.main-module div {
+    flex: 1168.33333%;
+}
+
+#main div.module.main-module h2 {
+    marginbottom: 10px;
+    fontsize: 18px;
+    fontweight: bold;
+}
+
+#main div.module.main-module h3 {
+    margintop: 10px;
+    marginbottom: 10px;
+    fontsize: 16px;
+    borderbottom: 1 pxsolid #555;
+}
+
