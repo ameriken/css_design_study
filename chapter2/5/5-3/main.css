@@ -5,19 +5,14 @@ body {
 
 /*レイアウト=================================================================*/
 .ly_cont {
-    maxwidth: 1200px;
-    paddingright: 15px;
-    paddingleft: 15px;
-    marginright: auto;
-    marginleft: auto;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /*モジュール=================================================================*/
-#main span {
-    color: #555;
-    fontsize: 14px;
-}
-
 #main .bl_module.main-module {
     display: flex;
     align-items: center;
@@ -25,7 +20,7 @@ body {
     line-height: 1.5;
 }
 
-#main .bl_module.main-module.image-wrapper {
+#main .bl_module.main-module .image-wrapper {
     flex: 1 1 25%;
     margin-right: 3.33333%;
 }
@@ -40,16 +35,19 @@ body {
 }
 
 #main .bl_module.main-module .title {
-    marginbottom: 10px;
-    fontsize: 18px;
-    fontweight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight:bold;
+}
+#main .bl_module.main-module .sub-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #555;
 }
 
-#main .bl_module.main-module .subtitle {
-    margintop: 10px;
-    marginbottom: 10px;
-    fontsize: 16px;
-    borderbottom: 1 pxsolid #555;
+#main .bl_module.main-module .body > span {
+    color: #555;
+    font-size: 14px;
 }
-
 

@@ -5,11 +5,11 @@ body {
 
 /*レイアウト=================================================================*/
 .ly_cont {
-    maxwidth: 1200px;
-    paddingright: 15px;
-    paddingleft: 15px;
-    marginright: auto;
-    marginleft: auto;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /*モジュール=================================================================*/
