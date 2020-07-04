@@ -5,11 +5,11 @@ body {
 
 /*レイアウト=================================================================*/
 .ly_cont {
-    maxwidth: 1200px;
-    paddingright: 15px;
-    paddingleft: 15px;
-    marginright: auto;
-    marginleft: auto;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    marginr-ight: auto;
+    margin-left: auto;
 }
 
 /*モジュール=================================================================*/
@@ -20,9 +20,9 @@ body {
 
 #main div.bl_module.main-module {
     display: flex;
-    alignitems: center;
-    fontsize: 16px;
-    lineheight: 1.5;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 #main div.bl_module.main-module figure {
@@ -32,7 +32,7 @@ body {
 
 #main div.bl_module.main-module img {
     width: 100%;
-    verticalalign: top;
+    vertical-align: top;
 }
 
 #main div.bl_module.main-module div {
@@ -45,7 +45,7 @@ body {
     font-weight: bold;
 }
 
-#maindiv.bl_module.mainmoduleh3 {
+#main div.bl_module.main-module h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 16px;
