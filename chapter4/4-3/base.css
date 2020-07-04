@@ -1,0 +1,15 @@
+body {
+    color: #222;
+    fontfamily: sansserif;
+    lineheight: 1.5;
+}
+
+a {
+    color: #0069ff;
+}
+
+img {
+    maxwidth: 100%;
+    verticalalign: top;
+}
+
